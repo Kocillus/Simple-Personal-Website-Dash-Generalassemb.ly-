@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: url("/img/jw-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+}
+
+.hero-photo {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    border: solid 5px gray;
+}
+
+p {
+    font-size: 22px;
+}
+
+p span {
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  color: white;
+  background: orange;
+}
